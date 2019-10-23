@@ -56,3 +56,17 @@ else:
     overtimePay = overtimeHours * (rate * 0.5)
     pay = pay + overtimePay
 print("your weekly pay is:", pay)  #comma   
+
+windspeed = eval(input("Enter wind speed in MPH: ")) #Activity Lesson 3
+if windspeed < 74:
+    print("Not a hurricane")
+elif windspeed <= 95:
+    print("Category 1 Hurricane.")
+elif windspeed <= 110:
+    print("Category 2 Hurricane.")
+elif windspeed <= 130:
+    print("Category 3 Hurricane.")
+elif windspeed <= 155:
+    print("Category 4 Hurricane.")
+else:
+    print("Category 5 Hurricane.")
